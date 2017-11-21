@@ -1,2 +1,2 @@
 # tjfrancais.github.io
-Les pages web pour les études du français.
+Les pages web pour les études de français.
