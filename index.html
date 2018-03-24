@@ -335,7 +335,21 @@ kbd {
 
 <h1 id="toc_0"><center>Cours intensifs de français</center></h1>
 
-<p><font size = 4><center>Semaine 2</center></font></p>
+<div id="show_time">   
+<script>     
+setInterval("fun(show_time)",1);
+function fun(timeID){   
+var date = new Date();  //创建对象
+var date_now = new Date();
+var date_begin = new Date(2018, 2, 4);
+var y = date_now.getFullYear();
+var m = 1 + date_now.getMonth();
+var d = date_now.getDate()
+var week = Math.round((date_now.valueOf() - date_begin.valueOf()) / 604800000);    
+document.getElementById(timeID.id).innerHTML = "<font size = 4><center>" + y + "-" + m + "-" + d + " | " + "Semaine " + week + "</center></font>";
+}  
+</script>    
+</div>
 
 <h2 id="toc_1">Annonces Importantes / 重要通知</h2>
 
@@ -350,16 +364,16 @@ kbd {
 <p><strong>Mercredi, 21 mars 2018</strong></p>
 
 <ol>
-<li>V2L3 Ex.1-8</li>
+<li>p.68-72 Ex.1, 2, 3, 4, 5, 6, 9, 10.</li>
 </ol>
 
 <h3 id="toc_4">Prof. Zhu</h3>
 
-<p><strong>Mardi, 20 mars 2018</strong></p>
+<p><strong>Jeudi, 22 mars 2018</strong></p>
 
 <ol>
-<li>Préparer pour la dictée.</li>
-<li>Exercices sur l&#39;écrit, p.138 ex.1, 2. p.139 ex.1.</li>
+<li>Lire le texte en entier.</li>
+<li>Questions et réponses sur les parties apprises.</li>
 </ol>
 
 <h2 id="toc_5">Notes</h2>
@@ -427,11 +441,11 @@ kbd {
 <hr>
 
 <ul>
-<li><p><a href="expressions/demander-le-chemin.pdf">Demander le chemin</a></p></li>
-<li><p><a href="expressions/fe%CC%82tes-traditionnelles.docx">Fêtes traditionnelles</a></p></li>
-<li><p><a href="expressions/faire-et-jouer-2.pdf">faire et jouer 2</a></p></li>
-<li><p><a href="expressions/dessin-illustratif.pdf">dessin illustratif</a> | <a href="expressions/vetements.pdf">vêtements</a> | <a href="expressions/matieres.pdf">matières</a></p></li>
-<li><p><a href="expressions/forme-feminine-des-adjectifs-de-nationalite.pdf">forme féminine des adjectifs de nationalité</a></p></li>
+<li><p><a href="expressions/demander-le-chemin.pdf">Demander le Chemin</a></p></li>
+<li><p><a href="expressions/fetes-traditionnelles.docx">Fêtes Traditionnelles</a></p></li>
+<li><p><a href="expressions/faire-et-jouer-2.pdf">Faire et Jouer 2</a></p></li>
+<li><p><a href="expressions/dessin-illustratif.pdf">Dessin Illustratif</a> | <a href="expressions/vetements.pdf">Vêtements</a> | <a href="expressions/matieres.pdf">Matières</a></p></li>
+<li><p><a href="expressions/forme-feminine-des-adjectifs-de-nationalite.pdf">Forme Féminine des Adjectifs de Nationalité</a></p></li>
 <li><p><a href="https://mp.weixin.qq.com/s/_77TOclB6kPse0kz4x7_Lg"><em>Peppa Pig</em></a></p></li>
 </ul>
 
