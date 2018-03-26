@@ -341,11 +341,11 @@ setInterval("fun(show_time)",1);
 function fun(timeID){   
 var date = new Date();  //创建对象
 var date_now = new Date();
-var date_begin = new Date(2018, 2, 4);
+var date_begin = new Date(2018, 2, 5);
 var y = date_now.getFullYear();
 var m = 1 + date_now.getMonth();
 var d = date_now.getDate()
-var week = Math.round((date_now.valueOf() - date_begin.valueOf()) / 604800000);    
+var week = Math.floor((date_now.valueOf() - date_begin.valueOf()) / 604800000) + 1;    
 document.getElementById(timeID.id).innerHTML = "<font size = 4><center>" + y + "-" + m + "-" + d + " | " + "Semaine " + week + "</center></font>";
 }  
 </script>    
@@ -361,11 +361,9 @@ document.getElementById(timeID.id).innerHTML = "<font size = 4><center>" + y + "
 
 <h3 id="toc_3">Prof. Yao</h3>
 
-<p><strong>Mercredi, 21 mars 2018</strong></p>
+<p><strong>Lundi, 26 mars 2018</strong></p>
 
-<ol>
-<li>p.68-72 Ex.1, 2, 3, 4, 5, 6, 9, 10.</li>
-</ol>
+<p>RIEN</p>
 
 <h3 id="toc_4">Prof. Zhu</h3>
 
